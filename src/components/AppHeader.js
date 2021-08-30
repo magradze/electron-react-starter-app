@@ -26,12 +26,12 @@ const AppHeader = () => {
           <div>
             <input type="checkbox" className="hidden" name="" id="toggle" />
             <label for="toggle">
-              <div className="w-9 h-5 flex items-center bg-gray-400 dark:bg-black-50 rounded-full p-1">
-                <div className="toggle-dot w-4 h-4 bg-gray-600 dark:bg-black-400 rounded-full shadow-md transform duration-300 ease-in-out"></div>
+              <div className="w-9 h-5 flex items-center bg-gray-300 dark:bg-gray-500 rounded-full p-1">
+                <div className="toggle-dot w-4 h-4 bg-gray-500 dark:bg-black-400 rounded-full shadow-md transform duration-300 ease-in-out"></div>
               </div>
             </label>
           </div>
-          <span className="text-xs text-black-50 uppercase">
+          <span className="text-xs text-gray-500 uppercase">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-4 w-4"
