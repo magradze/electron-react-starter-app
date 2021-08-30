@@ -4,7 +4,7 @@
   "description": "Electron React Starter",
   "author": "Giorgi Magradze",
   "license": "MIT",
-  "main": "public/main.js",
+  "main": "public/electron.js",
   "build": {
     "appId": "app.id",
     "productName": "electron-react-starter-app",
