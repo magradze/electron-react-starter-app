@@ -6,7 +6,7 @@
 ## Usage
 1. Clone this repository.
 ```
-git clone https://github.com/magradze/electron-reaxt-starter-app.git <your-project-name>
+git clone https://github.com/magradze/electron-react-starter-app.git <your-project-name>
 ```
 2. If you havent already, install Yarn globally.
 ```
