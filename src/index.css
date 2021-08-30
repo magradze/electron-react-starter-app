@@ -29,14 +29,22 @@
   }
 
   .app {
-    @apply relative flex flex-col w-full h-screen overflow-hidden border-0 bg-gray-100;
+    @apply relative flex flex-col w-full h-screen overflow-hidden border-0 bg-gray-100 dark:bg-black-400 text-black-600 dark:text-gray-50;
   }
   
   .app-header {
-    @apply bg-gray-200 p-2 flex justify-between w-full h-10 z-0;
+    @apply bg-gray-200 dark:bg-black-400 p-2 flex justify-between w-full h-10 z-0 text-black-600 dark:text-gray-50;
   }
 
   .app-container{
     @apply relative flex justify-center items-center p-4 h-screen;
   }
+
+  /* Toggle Button */
+  #toggle:checked ~ label div.toggle-dot{
+    @apply translate-x-3;
+  }
+
+  /* Toggle Button End*/
+
 }
