@@ -2,7 +2,8 @@ const AppHeader = ({title}) => {
   return (
     <div className="app-header dragable">
       <div className="flex w-auto h-auto dragable text-sm my-auto font-semibold text-gray-500">
-        {title}
+        <img className="w-5 h-5 mr-2 p-1 bg-gray-300 dark:bg-black-50 rounded-full dragable" src={'icon.png'}/>
+        <h5 className="dragable">{title}</h5>
       </div>
       <div className="flex non-dragable">
         {/* dark mode toggle button */}
