@@ -6,7 +6,28 @@
   "license": "MIT",
   "main": "public/main.js",
   "build": {
-    "appId": "app.id"
+    "appId": "app.id",
+    "productName": "electron-react-starter-app",
+    "mac":{
+      "icon": "build/logo512.png",
+      "target": "tar.gz"
+    },
+    "linux": {
+      "category": "Utils",
+      "icon": "build/icon.png",
+      "packageCategory": "utils",
+      "maintainer": "your name <your email>",
+      "asar": true,
+      "target": [
+        "deb",
+        "tar.xz"
+      ],
+      "synopsis": "Basically same as description but shorter"
+    },
+    "win": {
+      "icon": "build/icon.png",
+      "target": "nsis"
+    }
   },
   "homepage": "./",
   "dependencies": {
