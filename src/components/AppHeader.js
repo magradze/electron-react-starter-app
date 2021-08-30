@@ -1,8 +1,8 @@
-const AppHeader = () => {
+const AppHeader = ({title}) => {
   return (
     <div className="app-header dragable">
       <div className="flex w-auto h-auto dragable text-sm my-auto font-semibold text-gray-500">
-        Electron React Starter App
+        {title}
       </div>
       <div className="flex non-dragable">
         {/* dark mode toggle button */}
