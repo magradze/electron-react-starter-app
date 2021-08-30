@@ -1,7 +1,6 @@
 # Electron React Starter App (With Tailwind CSS)
 
-![Light](https://i.postimg.cc/rsg538PS/light.png)
-![Dark](https://i.postimg.cc/8cThZFtp/dark.png)
+![Electron React Starter App](https://i.ibb.co/QF82kS9/electron-react-starter.gif)
 
 *Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router.*
 <br>
